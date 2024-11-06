@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic RGB Color Mixer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dynamic RGB Color Mixer</h1>
+        <div class="slider-container">
+            <label for="red">Red: <span id="redValue">0</span></label>
+            <input type="range" id="red" min="0" max="255" value="0" />
+            <label for="green">Green: <span id="greenValue">0</span></label>
+            <input type="range" id="green" min="0" max="255" value="0" />
+            <label for="blue">Blue: <span id="blueValue">0</span></label>
+            <input type="range" id="blue" min="0" max="255" value="0" />
+        </div>
+        <div class="color-display" id="colorDisplay"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
